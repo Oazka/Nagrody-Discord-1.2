@@ -1,0 +1,1 @@
+# Nagrody-Discord-1.2
