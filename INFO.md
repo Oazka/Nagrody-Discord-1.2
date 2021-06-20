@@ -1,6 +1,7 @@
 Polski
 Nagrody Discord 1.2 To Mój Własny skrypt/plugin Na Dołączenie na Discord/Zostawienie Subskrypcji Na Kanale 
-Za Dołączenie na Dsicord Dostajemy 3 Casy A Za Subskrypcje 2 Casy
+Za Dołączenie na Discord Dostajemy 3 Casy
+ Za Subskrypcje 2 Casy
 
 UWAGA!
 "WND" ORAZ "WNY" TO INNE SKRYPTY ( POTRZEBNE DO DZIAŁANIA NAGRÓD! 
