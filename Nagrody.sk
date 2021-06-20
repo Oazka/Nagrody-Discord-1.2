@@ -1,0 +1,32 @@
+command /nagrody [<text>]:
+
+    trigger:
+
+        open chest with 3 rows named "&aNagrody" to player
+
+        set {_i} to 0
+
+        loop 10 times:
+
+            format slot {_i} of player with gray glass pane named " " to be unstealable
+
+            add 1 to {_i}
+
+        set {_i} to 17
+
+        loop 10 times:
+
+            format slot {_i} of player with gray glass pane named " " to be unstealable
+
+            add 1 to {_i}
+
+        #10-16
+        
+        
+        format slot 4 of player with Black Wool named "&6NAGRODY &7- &fINFO" with lore "&f Możesz odebrać do 5 case za darmo! Wbij Na Dc I Zostaw Suba Na YT! Czeka 5 Case" to close then run [execute player command "nagrody"]
+
+        format slot 12 of player with Blue Wool named "&6Nagroda &7- &1Discord" with lore "&fNapisz na kanale &c(&fnagrody-&6Hit&eHc&c) &4$&7odbior &fa otrzymasz 3 &6&lCASE'Y &4(&fLink Do Dc &7 na chat&4)" to close then run [execute player command "WND"]
+
+        format slot 13 of player with chest named "&6&lNAGRODY" with lore "&cSerwera HitHc.pl" to be unstealable
+
+        format slot 14 of player with Red Wool named "&6Nagroda &7- &cYT" with lore "&f&lKANAL &fYT &7&lSerwera &fKliknij w link na chat i zostaw &4SUBIKA &faby otrzymać 2 &6&lCASE'Y" to close then run [execute player command "WNY"]
